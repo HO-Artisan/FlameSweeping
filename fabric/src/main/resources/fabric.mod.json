@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "flamesweeping",
+  "version": "${version}",
+  "name": "FlameSweeping",
+  "description": "Sweeping Attack with Fire Aspect Support!",
+  "authors": [
+    "HO-Artisan"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/flame-sweeping"
+  },
+  "license": "MIT",
+  "icon": "assets/flamesweeping/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ho.artisan.flamesweeping.fabric.FlameSweepingFabric"
+    ]
+  },
+  "mixins": [
+    "flamesweeping.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.12",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  }
+}
