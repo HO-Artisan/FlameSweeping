@@ -1,29 +1,14 @@
 modLoader = "javafml"
-loaderVersion = "[40,)"
-#issueTrackerURL = ""
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/HO-Artisan/FlameSweeping/issues"
 license = "MIT"
 
 [[mods]]
-modId = "flamesweeping"
+modId = "flame_sweeping"
 version = "${version}"
-displayName = "FlameSweeping"
+displayName = "Flame Sweeping"
 authors = "HO-Artisan"
 description = '''
-Sweeping Attack with Fire Aspect Support!
+Sweeping with flame!
 '''
-logoFile = "icon.png"
-
-[[dependencies.flamesweeping]]
-modId = "forge"
-mandatory = true
-versionRange = "[40,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.flamesweeping]]
-modId = "minecraft"
-mandatory = true
-versionRange = "[1.18.2,)"
-ordering = "NONE"
-side = "BOTH"
-
+logoFile = "banner.png"

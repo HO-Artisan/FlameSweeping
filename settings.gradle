@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'flamesweeping'
+rootProject.name = 'flame_sweeping'
 
 include 'common'
 include 'fabric'

@@ -1,12 +1,13 @@
 {
   "required": true,
-  "package": "ho.artisan.flamesweeping.mixin",
+  "package": "ho.artisan.fs.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "client": [
   ],
   "mixins": [
-    "LivingEntityMixin"
+    "EntityHurtMixin",
+    "FireAspectMixin"
   ],
   "injectors": {
     "defaultRequire": 1

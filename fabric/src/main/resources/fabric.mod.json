@@ -1,29 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "flamesweeping",
-  "version": "${version}",
-  "name": "FlameSweeping",
-  "description": "Sweeping Attack with Fire Aspect Support!",
+  "id": "flame_sweeping",
+  "version": "2.1",
+  "name": "Flame Sweeping",
+  "description": "Sweeping with flame!",
   "authors": [
-    "HO-Artisan"
+    "HO-Artisan",
+    "Chemiofitor"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/flame-sweeping"
+    "homepage": "https://modrinth.com/mod/flame-sweeping",
+    "sources": "https://github.com/HO-Artisan/FlameSweeping"
   },
   "license": "MIT",
-  "icon": "assets/flamesweeping/icon.png",
+  "icon": "assets/flame_sweeping/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ho.artisan.flamesweeping.fabric.FlameSweepingFabric"
+      "ho.artisan.fs.fabric.FlameSweepingFabric"
     ]
   },
   "mixins": [
-    "flamesweeping.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=0.16.12",
-    "minecraft": "~1.18.2",
-    "java": ">=17"
-  }
+    "flame_sweeping.mixins.json"
+  ]
 }

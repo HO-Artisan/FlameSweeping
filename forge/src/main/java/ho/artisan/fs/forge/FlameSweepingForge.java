@@ -1,11 +1,13 @@
-package ho.artisan.flamesweeping.forge;
+package ho.artisan.fs.forge;
 
-import ho.artisan.flamesweeping.FlameSweeping;
 import net.minecraftforge.fml.common.Mod;
+
+import ho.artisan.fs.FlameSweeping;
 
 @Mod(FlameSweeping.MOD_ID)
 public final class FlameSweepingForge {
     public FlameSweepingForge() {
+        // Run our common setup.
         FlameSweeping.init();
     }
 }

@@ -1,10 +1,10 @@
 plugins {
-    id 'com.github.johnrengelman.shadow'
+    id 'com.gradleup.shadow'
 }
 
 loom {
     forge {
-        mixinConfig "flamesweeping.mixins.json"
+        mixinConfig "flame_sweeping.mixins.json"
     }
 }
 
@@ -33,7 +33,6 @@ configurations {
 dependencies {
     forge "net.minecraftforge:forge:$rootProject.forge_version"
 
-
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 }
@@ -52,5 +51,5 @@ shadowJar {
 }
 
 remapJar {
-    input.set shadowJar.archiveFile
+    inputFile.set shadowJar.archiveFile
 }
